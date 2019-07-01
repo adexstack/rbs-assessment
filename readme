@@ -1,0 +1,17 @@
+I have implemented this assessment with Cucumber framework as required.
+
+This framework could be improved by converting the Cucumber framework to TestNG as I could benefit from the various TestNG
+annotations for better test running options management while also maintaining the BDD advantage.
+I could also have implemented the TessNGextentReport to create an HTML reporting for the text execution.
+
+Also, logging could be implemented using log4j libraries for quick error/failure debugging and also to share execution report
+to teams.
+
+I created the project using maven to allow for dependencies uniqueness for the project and also to make project suitable for continuous
+integration with jenkins pipeline.
+ 
+ Meanwhile, I could have improved my code structure to make it more reusable by creating methods for some functions used and also avoid
+ boiler plate as much as possible. Also, this could be improved by creating more PageLocators.java file to hold multiple' single page objects but 
+ starved of time as I had personal issues that prevented me from starting this earlier.
+ 
+ Running the project is from TestRunner.java as junit.
